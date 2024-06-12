@@ -1,4 +1,4 @@
-# GitHub Actions & App Service Deployment Slots
+# GitHub Actions & App Service Deployment Slots gyhgyuhgtyh
 
 This repo contains a sample Tomcat application and GitHub Actions workflow files to deploy the application to test environments for each pull request. Additionally, when a PR is merged into the main branch, the main branch is deployed to a staging environment where a code-owner will be prompted to approve the release to production. While this repo uses Java 11 and Tomcat 9, this pattern works for any of the other runtimes offered by App Service: .NET, Python, Node.js, PHP, and docker containers. You can adapt the workflow files by replacing the `install-java` and `mvn` commands with your desired runtime and build tool (such as `install-node` and `npm`).
 
